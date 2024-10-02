@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Memuat dataset
-day_df = pd.read_csv('https://raw.githubusercontent.com/ZeroAce25/Proyek-Analisis-Data-Dicoding/refs/heads/main/data/day.csv?token=GHSAT0AAAAAACYLT5WDACIEQURW7XICDZTQZX5M5KA')  # Ganti dengan path yang sesuai
+day_df = pd.read_csv('https://raw.githubusercontent.com/ZeroAce25/Proyek-Analisis-Data-Dicoding/refs/heads/main/data/day.csv?token=GHSAT0AAAAAACYLT5WDJDQTCBMWGNLYQZMEZX5NRCQ')  # Ganti dengan path yang sesuai
 # Pastikan kolom 'dteday' bertipe datetime
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
